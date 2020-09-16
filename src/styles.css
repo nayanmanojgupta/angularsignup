@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+.row
+{
+    margin:8px;
+    padding:0.1rem;
+    
+}
+
+div.sm-jumbotron
+{
+    margin:0px;
+    padding:1.6rem;
+     
+    background-color:black;
+    color:#fff;
+
+}
+
+div.sm-jumbotron h2
+{
+    margin:10px;
+    font-size:65px;
+}
+
+button.btn-submit
+{
+    background-color:#38547b;
+    color:#fff;
+    width:100%;
+
+}
+
+button.btn-submit:focus,button.btn-submit:onmouseover{
+    background-color:red;
+
+}
+input.ng-invalid.ng-dirty
+{
+    border-bottom-color:red !important;
+    box-shadow:0 1px 0 0 red !important;
+
+}
+
+
+@media(max-width: 991px)
+{
+
+    body
+    {
+        height:100vh;
+    }
+    
+    .row
+    {
+    margin:10px;
+    padding:0.1rem 0rem;
+    
+    }
+
+    div.sm-jumbotron
+{
+    
+    padding:0.2rem;
+     
+   
+
+}
+
+div.sm-jumbotron h2
+{
+    margin:10px;
+    font-size:40px;
+}
+
+        
+}
+
+
